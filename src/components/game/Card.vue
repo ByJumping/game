@@ -52,7 +52,6 @@ export default {
         this.activeCard.push(image.id)
       }
       if(!this.activeCard.includes(image.id)) {
-        console.log(i, this.active)
         this.active.pop()
         this.activeCard = []
       }
